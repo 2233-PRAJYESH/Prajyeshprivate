@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: #333;
+            color: #fff;
+        }
+        .content {
+            max-width: 50%;
+        }
+        .header {
+            font-size: 3em;
+            margin: 0;
+        }
+        .bio {
+            margin: 40px 0;
+            font-size: 1.2em;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .image-container img {
+            max-width: 300px;
+            border-radius: 50%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .content, .image-container {
+                max-width: 100%;
+            }
+        }
+        .footer {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer h2 {
+            margin-top: 0;
+        }
+        .footer .links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .footer .links a:hover {
+            text-decoration: underline;
+        }
+        .footer .contact {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="header">MY PORTFOLIO</h1>
+            <p class="bio">Hello, my name is PRAJYESH GOLLAPALLI. Welcome to my personal portfolio webpage. Here you can find my resume and explore the projects I've worked on.</p>
+            <div class="buttons">
+                <button onclick="window.location.href= 'https://drive.google.com/file/d/1eEuloap-Id6juY5HxYlOP-QV5zK56BYk/view?usp=sharing'">Resume</button>
+                <button onclick="window.location.href='https://github.com/2233-PRAJYESH'">Explore My Projects</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="https://doeresults.gitam.edu/photo/img.aspx?id=122010304010" alt="Prajyesh Gollapalli">
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Connect</h2>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/prajyesh-gollapalli-golla22335777/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/2233-PRAJYESH" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/prajyesh_gollapalli/" target="_blank">Instagram</a>
+        </div>
+        <div class="contact">
+            Contact: <a href="mailto:prajyeshgollapalli9@gmail.com" style="color: white; text-decoration: none;">prajyeshgollapalli9@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
